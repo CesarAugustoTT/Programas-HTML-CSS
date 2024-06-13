@@ -1,0 +1,248 @@
+/* Definindo estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/*titulo*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 330px;
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 50px;
+}
+.container h1{
+    font-size: 500%;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container h3{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.582);
+}
+header .primeiro-nome {
+    color: black ; /* Cor do primeiro nome */
+}
+
+header .segundo-nome {
+    color: #162850; /* Cor do segundo nome */
+}
+
+
+/* Cabeçalho */
+header {
+    color: #030303;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+}
+
+header h3 {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Conteúdo Principal */
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* menu */
+nav {
+    width: 250px;
+    background: #162850;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.623);
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #ffffff93;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #2d4373;
+}
+
+/* Ícones de redes sociais */
+.social-media {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.social-icon {
+    color: black;
+    font-size: 50px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: blue;
+}
+
+/* Seções principais */
+main {
+    margin-left: 270px; /* Espaço para o menu fixo */
+    padding: 20px;
+    width: calc(100% - 220px);
+}
+.Certificações{
+    margin-top: 80px;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+section h2 {
+    color: #162850;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    margin-left: 40px;
+}
+section h3, section h4 {
+    color: #07070798;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+}
+section p,
+section ul {
+    background: #fff;
+    width: 90%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.goal{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.job, .school {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.job h3, .school h3 {
+    color: #162850c5;
+}
+
+/* Rodapé */
+footer {
+    background: #0e0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+
+/* Media Query para 750px */
+@media (max-width: 750px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container h1 {
+        font-size: 300%;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    nav {
+        width: 100%;
+        margin-left: 0;
+        position: absolute;
+        height: auto;
+        margin-top: 0px;  
+    }
+
+    header{
+        position: relative;
+        margin-top: 600px;
+    }
+    main {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 200%;
+        margin-left: 0;
+    }
+
+    section h3,
+    section h4 {
+        margin-left: 0;
+    }
+
+    section p,
+    section ul {
+        margin-left: 0;
+    }
+}

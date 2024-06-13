@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="autoescola.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Autoescola Guanabara</title>
+    <link rel="icon" type="image/x-icon" href="imagens/logomarca.jpg">
+</head>
+<body>
+    <nav>
+            <ul>
+                <div class="menu">
+                    <li><img  class="logo" src="imagens/logomarca.jpg"/></li>
+                    <li><h3><strong>Autoescola Guanabara</strong></h3></li>
+                    <Li><a class="destaque" href="#principal">Inicio</a></Li>
+                    <li class="destaque"><a href="#sobre">Sobre</a></li>
+                    <li class="destaque"><a href="#pacotes">Pacotes</a></li>
+                    <li class="destaque"><a href="#Prematricula">Pré-Matrícula</a></li>
+                    <li class="destaque"><a href="#contato">Contato</a></li>
+                    <li>
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/cfcguanabara?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/p/CFC-Guanabara-100090872204914/" target="_blank" class="social-icon facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://wa.me/31988607778" target="_blank" class="social-icon whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+            <button class="nav-toggle">&#9776;</button>
+    </nav>
+    <div class="container" id="inicio">
+        <header id="principal" class="content">
+            <h1 class="principalh1">Autoescola Guanabara</h1>
+            <h2>Tire sua habilitação com quem entende do assunto!</h2>
+        </header>
+        <div class="section" id="sobre">
+            <div class="sobre">
+                <div class="s1">
+                    <h1 class="titulo">Sobre Nós</h1>
+                        <p>   Na Auto Escola Guanabara, acreditamos que a segurança no trânsito é tão importante quanto a velocidade. Nossa equipe está pronta para te guiar nessa jornada.</p>
+
+                        <p>   Com carros de boa qualidade e instrutores experientes, garantimos que sua experiência de aprendizado seja inesquecível.</p>
+                            
+                        <p>   Junte-se aos milhares de alunos que já conquistaram suas carteiras de motorista conosco. Seja parte dessa história de sucesso!</p>
+                </div>
+                <div class="s2">
+                    <img src="imagens/Captura de tela 2024-05-29 144206.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="section1" class="Pronto">
+            <h1 class="titulo1">Pronto para Dirigir?</h1>
+            <div>
+                <p>Ao se matricular na Autoescola Guanabara, você estará se juntando a uma comunidade de alunos satisfeitos que alcançaram suas carteiras de motorista com sucesso.</p>
+                <p>Não deixe essa oportunidade escapar! Entre em contato conosco e dê o primeiro passo em direção à sua independência e liberdade nas estradas. Aproveite o melhor serviço, instrutores de qualidade e um ambiente de aprendizado acolhedor.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="titulo">Nosso diferencial</h1>
+            <div class="frota">
+                <div class="f1">
+                    <h2>Nossos veículos</h2>
+                    <p>Aqui na Guanabara temos os melhores veiculos de ótima qualidade, com isso garantimos que sua experiência seja inesquecível para aprender a dirigir com segurança e responsabilidade, e assim estará pronto(a) para encarar as estradas e o trânsito com confiança.</p>
+                </div>
+                <div class="f2">
+                    <div class="gallery-container">
+                        <div class="gallery" id="galeria">
+                          <img src="veiculos/frota.jpg" alt="Foto 1" class="active">
+                          <img src="veiculos/carro1.jpg" alt="Foto 2">
+                          <img src="veiculos/onibus cat D.jpg" alt="Foto 3">
+                          <img src="veiculos/Carro 3.jpg" alt="Foto 4">
+                          <img src="veiculos/carreta cat E.jpg" alt="Foto 5">
+                          <img src="veiculos/carro4.jpg" alt="Foto 6">
+                          <img src="veiculos/carro5.jpg" alt="Foto 7">
+                          <img src="veiculos/onibus e carreta.jpg" alt="Foto 8">
+                          <img src="veiculos/carro7.jpg" alt="Foto 9">
+                        </div>
+                        <div class="button1">
+                            <button id="button1" class="prev" onclick="prevImage()">&#10094;</button>
+                            <button id="button1" class="next" onclick="nextImage()">&#10095;</button>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+            <div class="escola">
+                <div class="e2">
+                    <img src="imagens/Captura de tela 2024-05-29 144144.png"/>
+                </div>
+                <div class="e1">
+                    <h2>Conheça nossa escola</h2>
+                    <p>Aqui na nossa autoescola, a recepção é sempre calorosa e acolhedora!
+                        Venha nos visitar e sinta-se em casa enquanto dá os primeiros passos para conquistar a sua carteira de motorista.</p>
+                </div>
+            </div>
+            <div class="instrutores">
+                <div class="i1">
+                    <h2>Os melhores instrutores</h2>
+                    <p>Nossos instrutores altamente qualificados são apaixonados por ensinar e estão prontos para guiá-lo(a) em cada etapa do processo, fornecendo as melhores técnicas e dicas para se tornar um motorista confiante e habilidoso.</p>
+                </div>
+                <div class="i2">
+                    <img src="alunos/Captura de tela 2024-06-08 105946.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="MVV">
+            <div class="missão">
+                <h3>Missão</h3>
+                <p>Realizar sonhos.</p>
+            </div>
+            <div class="visão">
+                <h3>Visão</h3>
+                <p>Excelência em formar condutores.</p>
+            </div>
+            <div class="valores">
+                <h3>Valores</h3>
+                <p>Exercer a cidadania e respeito à vida.</p>
+            </div>
+        </div>
+        <div class="section" id="pacotes">
+            <div class="PACOTES">
+                <h1 class="titulo">Pacotes</h1>
+                <div class="pacotes1">
+                    <div class="A">
+                        <h2>1° habilitação categoria A </h2>
+                        <h4>Por 1200,00 reais está incluso:</h4>
+                        <p class="pacotinho">
+                            <ul>
+                                <li>45 aulas do curso de legislação</li>
+                                <li>taxa da prova</li>
+                                <li>LADV</li>
+                                <li>20 aulas de direção</li>
+                                <li>aluguel do Veículo</li>
+                                <li>taxa do exame final</li>
+                                <li><strong>Valores à parte:</strong></li>
+                                <li>taxa de inscrição - 105,59</li>
+                                <li>exames médico e psicotécnico- 423,78</li>
+                                <li>moto pista 290.00</li>
+                            </ul>
+                            <div class="atalhomatricula"><a href="#Prematricula">Prè-Matricula</a></div>
+                        </p>
+                    </div>
+                    <div class="B">
+                        <h2>1° habilitação categoria B </h2>
+                        <h4>Por 1600,00 reais está incluso:</h4>
+                        <p class="pacotinho">
+                            <ul>
+                                <li>45 aulas do curso de legislação</li>
+                                <li>taxa da prova</li>
+                                <li>LADV</li>
+                                <li>20 aulas de direção</li>
+                                <li>aluguel do Veículo</li>
+                                <li>taxa do exame final</li>
+                                <li><strong>Valores à parte:</strong></li>
+                                <li>taxa de inscrição - 105,59</li>
+                                <li>exames médico e psicotécnico- 423,78</li>
+                            </ul>
+                            <div class="atalhomatricula"><a href="#Prematricula">Prè-Matricula</a></div>
+                        </p>
+                    </div>
+                    <div class="C">
+                        <h2>Adição da categoria A</h2>
+                        <h4>Por 800,00 reais está incluso:</h4>
+                        <p class="pacotinho">
+                            <ul>
+                                <li>LADV</li>
+                                <li>15 aulas de direção</li>
+                                <li>aluguel do Veículo</li>
+                                <li>taxa do exame final</li>
+                                <li><strong>Valores à parte:</strong></li>
+                                <li>taxa de inscrição - 105.59</li>
+                                <li>exames médico 211,78</li>
+                                <li>aluguel - 270,00</li>
+                            </ul>
+                            <div class="atalhomatricula"><a href="#Prematricula">Prè-Matricula</a></div>
+                        </p>
+                    </div>
+                </div>
+                <div class="pacotes2">
+                    <div class="D">
+                        <h2>Adição da categoria B</h2>
+                        <h4>Por 800,00 reais está incluso:</h4>
+                        <p class="pacotinho">
+                            <ul>
+                                <li>LADV</li>
+                                <li>15 aulas de direção</li>
+                                <li>aluguel do Veículo</li>
+                                <li>taxa do exame final</li>
+                                <li><strong>Valores à parte:</strong></li>
+                                <li>taxa de inscrição - 105.59</li>
+                                <li>exames médico 211,78</li>
+                            </ul>
+                            <div class="atalhomatricula"><a href="#Prematricula">Prè-Matricula</a></div>
+                        </p>
+                    </div>
+                    <div class="E">
+                        <h2>Para a mudança, categoria D</h2>
+                        <h4>Por 1600,00 reais está incluso:</h4>
+                        <p class="pacotinho">
+                            <ul>
+                                <li>LADV</li>
+                                <li>20 aulas de direção</li>
+                                <li>aluguel do Veículo</li>
+                                <li>taxa do exame final</li>
+                                <li><strong>Valores à parte:</strong></li>
+                                <li>taxa de inscrição - 105.59</li>
+                                <li>exames médico e psicotécnico- 423,78</li>
+                                <li>toxicológico - 100,00</li>
+                            </ul>
+                            <div class="atalhomatricula"><a href="#Prematricula">Prè-Matricula</a></div>
+                        </p>
+                    </div>
+                    <div class="F">
+                        <h2>Para a mudança, categoria E</h2>
+                        <h4>Por 1800,00 reais está incluso:</h4>
+                        <p class="pacotinho">
+                            <ul>
+                                <li>LADV</li>
+                                <li>20 aulas de direção</li>
+                                <li>aluguel do Veículo</li>
+                                <li>taxa do exame final</li>
+                                <li><strong>Valores à parte:</strong></li>
+                                <li>taxa de inscrição - 105.59</li>
+                                <li>exames médico e psicotécnico- 423,78</li>
+                                <li>toxicológico - 100,00</li>
+                            </ul>
+                            <div class="atalhomatricula"><a href="#Prematricula">Prè-Matricula</a></div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section1" id="feedback">
+            <div class="FEEDBACK">
+                <h1 class="titulo1">Feedbacks:</h1>
+                <div class="feedback1">
+                    <div class="A2">
+                        <h2>Depoimento</h2>
+                        <h4>Obrigada Breno, por toda dedicação, motivação e paciência. Tudo que aprendi, AGRADEÇO a vc. Meu resultado é nosso resultado. Deus te abençoe.
+                            Obg Fábio, Warley e a todos da Guanabara pelo acolhimento e atenção comigo. Pela motivação
+                            E vcs que não conseguiram ainda ou não fizeram exame NÃO DESISTAM, SEJAM PERSISTENTES, OUÇAM OS CONSELHOS DE BRENO, FAÇAM COM CALMA O EXAME, QUE TAMBÉM VÃO CONSEGUIR.
+                            Deus abençoe toda equipe e alunos.
+                        </h4>
+                        <h4 class="pacotinho2"> <strong>-Jucilene.</strong>
+                        </h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="B2">
+                        <h2>Depoimento </h2>
+                        <h4>Queria agradecer imensamente a equipe da Guanabara pelo excelente atendimento, pela paciência que tiveram comigo nesse periodo tenso, agradeço por serem tão solicitas em me ajudar a encontrar horários disponiveis para as aulas que se desse certo na minha rotina, isso fez toda a diferença! E, clara, agradeço muito meu instrutor Rogério, pela paciência, pelo carinho e pela excelente didática em aula!
+                            A tranquilidade, o bom humor e as confiança dela foram fundamentais nesse processol
+                            Obrigada a todos!
+                        </h4>
+                        <h4 class="pacotinho2">
+                           <strong>-Lucila.</strong>
+                        </h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="C2">
+                        <h2>Depoimento</h2>
+                        <h4>Bom dia quero agradecer primeiro a Deus, e em segundo a toda equipe Guanabara pelo carinho comprometimento, ao Fábio pelo apoio nos horários das aulas, sempre ajudando da melhor forma possível, ao Rogério e o outro instrutor também desculpa aí esqueci o nome e a meninas secretária ai também, que continue abençoando o seus trabalhos ai, vou está sempre indicar a galera de Borão de Cocais pra vcs ai. Baita abraço pra todos muito obrigado!</h4>
+                        <h4 class="pacotinho2">
+                            <strong>-Rômulo.</strong>
+                        </h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback2">
+                    <div class="D2">
+                        <h2>Depoimento</h2>
+                        <h4>Equipe excelente, repleta de ótimos funcionários atenciosos. Sempre que necessário tive suporte. Estou muito feliz de ter conquistado minha carteira com a equipe Guanabara. "Pega o Guanabara e vem."</h4>
+                        <h4 class="pacotinho2">
+                            <strong>-Ana Flávia.</strong> 
+                        </h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="E2">
+                        <h2>Depoimento</h2>
+                        <h4>Breno, muitissimo obrigada por tudo. Nunca vou conseguir pagar o que você fez por mim durante esse tempo. Você é uma das melhores pessoas que já conheci na vida! Muito obrigada. Fábio! Não tenho palavras que expressem o quanto sou grata a você, por todo esforço em fazer o melhor para mim e por toda a preocupação. Obrigada mesmo. Vocês são os melhores.
+                        </h4>
+                        <h4 class="pacotinho2">
+                            <strong>-Renata.</strong>
+                        </h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="F2">
+                        <h2>Depoimento</h2>
+                        <h4>Experiência incrivel!! Profissionais capacitados e um atendimento exemplar. Só tenho a agradecer a todos pelo tempo no Auto Escola Guanabara, desde a legislação até as aulas de rua. Campeão de aprovações!</h4>
+                        <h4 class="pacotinho2">
+                            <strong>-Raíssa Oliveira.</strong>
+                        </h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="titulo">Duvidas Frequentes</h1>
+            <div class="duvida1">
+                <h2>Como me Matricular?</h2>
+                <p>Entre em contato conosco e será orientado. Basta preencher nosso formulário e você estará a caminho da sua carteira de motorista.</p>
+            </div>
+            <div class="duvida2">
+                <h2>Quais são os requisitos?</h2>
+                <p>Ter 18 anos, saber ler e escrever, possui documento de identidade e CPF e possuir comprovante de endereço atualizado.</p>
+            </div>
+            <div class="duvida3">
+                <h2>Quanto tempo leva para me formar?</h2>
+                <p>Em média de 60 a 90 dias, porém como os horários são flexiveis depende da agenda e do tempo disponível do aluno.</p>
+            </div>
+            <div class="duvida4">
+                <h2>Posso agendar aulas teóricas online?</h2>
+                <p>Claro que sim! Marque suas aulas quando e onde quiser.</p>
+            </div>
+            <div class="duvida5">
+                <h2>Quais são as formas de pagamento aceitas?</h2>
+                <p>Desde dinheiro até cartões, estamos aqui para facilitar sua jornada rumo à carteira de motorista.</p>
+            </div>
+        </div>
+        <div class="section1" id="orientação">
+            <h1 class="titulo1">Orientações</h1>
+            <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Primeira habilitação:</span>
+                            <span class="flexa">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                <ul>
+                                    <li>Primeiro você vai estar vindo a autoescola para realizar seu cadastro trazer RG, CPF e comprovante de residência/local.</li>
+                                    <li>Será emitido uma taxa (valor de 105,59) para você estar realizando o pagando no banco ou lotérica, próximo passo você estará agendando seu exame médico (211,78) conjuntamente com o psicotécnico (211,78) na clínica em que o Detran designar.</li>
+                                    <li>Mediante a aprovação no psicotécnico você começará as 45 aulas de legislação.</li>
+                                    <li>Após a finalização das 45 aulas obrigatórias poderá realizar a MARCAÇÃO DA PROVA ESCRITA comparecendo na secretaria da autoescola para autorizar a marcação. (O candidato terá q ter a pontuação de no mínimo 21 pontos para ser aprovado). Sendo reprovado terá q realizar novamente o pagamento de repetência da prova para a obtenção dos 21 pontos.</li>
+                                    <li>Sendo aprovado na prova, pegará a LADV na secretaria da autoescola, liberando assim para marcar as 20 aulas de direção com o instrutor (a) que desejar.</li>
+                                    <li>Finalizando as 20 aulas obrigatórias você estará liberado para a marcação do EXAME PRÁTICO comparecendo na secretaria da autoescola para autorizar a marcação, sendo aprovado aguarde a habilitação chegar em casa. Se reprovado terá q realizar novamente o pagamento de repetência do exame.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Adição de habilitação:</span>
+                            <span class="flexa">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                <ul>
+                                    <li>Primeiro você vai estar vindo ao autoescola e fazendo seu cadastro portando Habilitação, RG, CPF, Comprovante de residência/local.</li>
+                                    <li>Vou emitir uma taxa (105,59), taxa do Detran e estar agendando seu exame de vista. Mediante aprovação no exame de vista (211,78) você volta ao Autoescola para liberar a LADV e 15 aulas de direção.</li>
+                                    <li>O valor total seja para categoria A e B deverá ser realizado no ato.</li>
+                                    <li>Finalizando as 15 aulas obrigatórias você estará liberado para a marcação do EXAME PRÁTICO comparecendo na secretaria da autoescola para autorizar a marcação, sendo aprovado aguarde a habilitação chegar em casa. Se reprovado terá q realizar novamente o pagamento de repetência do exame</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Mudança de categoria D ou E:</span>
+                            <span class="flexa">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                <ul>
+                                    <li>Primeiro você vai estar vindo ao autoescola e fazendo seu cadastro portando Habilitação, RG, CPF, Comprovante de residência/local.</li>
+                                    <li>Vou emitir uma taxa (valor de 105,59) para você estar pagando no banco ou lotérica e agendando seu exame médico (211,78) e psicotécnico (211,78) na clínica que o Detran designar. Após o cadastro você ira até a clínica e realize o exame toxicológico valor (100,00). Sendo aprovado no toxicológico vá até a clínica do detran e realize o psicotécnico.</li>
+                                    <li>Sendo aprovado em toda primeira etapa (toxicológico, exame médico e psicotécnico), volte a autoescola para liberar a LADV e marcar suas 20 aulas de direção.</li>
+                                    <li>O valor total seja para categoria D ou E deverá ser realizado no ato.</li>
+                                    <li>Finalizando as 20 aulas obrigatórias você estará liberado para a marcação do EXAME PRÁTICO comparecendo na secretaria da autoescola para autorizar a marcação, sendo aprovado aguarde a habilitação chegar em casa. Se reprovado terá q realizar novamente o pagamento de repetência do exame</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+            </div>
+        </div>
+        <div class="section" id="Prematricula">
+                <div class="containerform">
+                    <h1>Formulário de Pré-Matrícula</h1>
+                    <form id="enrollment-form" action="https://api.staticforms.xyz/submit" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nome Completo:</label>
+                            <input type="text" placeholder="Digite seu nome" id="name" name="name" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Digite seu email" id="email" name="email" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Número de contato:</label>
+                            <input type="text" placeholder="(xx)xxxxx-xxxx" id="name" name="number" autocomplete="off" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Data de Nascimento:</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="curso">Curso:</label>
+                            <select id="curso" name="curso" required>
+                                <option value="curso1">Pacote 1</option>
+                                <option value="curso2">Pacote 2</option>
+                                <option value="curso3">Pacote 3</option>
+                                <option value="curso3">Pacote 4</option>
+                                <option value="curso3">Pacote 5</option>
+                                <option value="curso3">Pacote 6</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="butãomatricula" type="submit">Matricular</button>
+                        </div>
+                        <input type="hidden" name="accessKey" value="96d562e1-e0c3-4c79-b6fb-75f066dd59cb">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Obrigado.html">
+                    </form>
+                </div>
+        </div>
+        <div class="classparceria">
+            <div class="section1" id="parceiria">
+                <div class="parceria1">
+                    <h1 class="titulo1">Nosso Parceiro</h1>
+                </div>
+                <div class="parceria2">
+                    <img src="imagens/Captura de tela 2024-06-04 134613.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="contato">
+            <div class="contato1">
+                <h3>Contato:</h3>
+                <p class="ultimo">Entre em contato conosco para obter mais informações sobre nossos cursos e sobre o processo de matricula.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +55 (31) 3831-7730</p>
+                    <p><i class="fas fa-envelope"></i>cfcguanabara@gmail.com</p>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/31988607778" target="_blank">+55 (31) 9 8860-7778</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i>AV Mauro Ribeiro Lage, 586, Esplanada da estação, Itabira-MG.</p>
+                </div>
+                <p><strong>Horário de Funcionamento:</strong>
+                    <ul>
+                        <li>Segunda a Sexta: 08:00 - 18:00.</li>
+                        <li>Sábados: 08:00 - 12:00.</li>
+                    </ul>
+                </p>
+            </div>
+            <div id="mapa">
+                <div class="mapa-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.013675862536!2d-43.23297012561109!3d-19.62671308169456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5a1a2fcfea87b%3A0x48e21b5ffe6def7a!2sAuto%20Escola%20Guanabara!5e0!3m2!1sen!2sbr!4v1717719110886!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footerdesenvolvido">
+            <p class="footer">&copy; 2024 Autoescola Guanabara. Todos os direitos reservados.</p>
+            <p class="desenvolvido"> Desenvolvido por César Augusto </p>
+        </div>
+    </footer>
+</body>
+</html>

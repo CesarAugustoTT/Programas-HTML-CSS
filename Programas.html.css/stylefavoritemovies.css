@@ -1,0 +1,32 @@
+html {
+background:#70b3be;
+color: #000000;
+line-height: 50px;
+font-family: Helvetica, sans-serif;
+width: 800px;
+
+}
+a{
+    color: #0c042c;
+ }
+ a:hover{
+    color: rgb(145, 145, 192);
+ }
+ p{
+        text-indent: 2em;
+        text-align: justify;
+  }
+.main p{line-height: 1.5;}
+abbr{
+font-variant: small-caps;}
+html{
+      width: 80%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: 10%;
+   margin-right: 10%;} 
+h1{
+      text-align: center;
+      background-color:#092eb3;
+      font-size: 400%;
+     }

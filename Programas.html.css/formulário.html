@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <link href="styleforms.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <form action="pagina-destino.html" method="post">
+            <section>
+                <h2>Dados Pessoais:</h2>
+                <p>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" placeholder="Seu nome" id="nome"/>
+                </p>
+                <p>
+                    <label for="Número">Número de telefone:</label>
+                    <input type="tel" placeholder="Número" id="Número"/>
+                </p>
+                <p>
+                    <label for="Login">E-mail:</label>
+                    <input type="email" placeholder="Seu e-mail" id="Login"/>
+                </p>
+                <p>
+                    <label for="Senha">Senha:</label>
+                <input type="password" placeholder="Sua senha" id="Senha"/>
+                </p>
+                <p>
+                    Estado Civil:
+                    <input type="radio" id="Solteiro" name="estado-civil"/>
+                    <label for="Solteiro">Solteiro(a)</label>
+                    <input type="radio" id="Casado" name="estado-civil"/>
+                    <label for="Casado">Casado(a)</label>
+                    <input type="radio" id="Divorciado" name="estado-civil"/>
+                    <label for="Divorciado">Divorciado(a)</label>
+                    <input type="radio" id="Viuvo" name="estado-civil"/>
+                    <label for="Viuvo">Viuvo(a)</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="Termos"/>
+                    <label for="Termos">Concordo com os termos de uso...</label>
+                </p>
+                <p>
+                    Estado:
+                    <select>
+                        <option>Amazonas</option>
+                        <option>Acre</option>
+                        <option>Bahia</option>
+                        <option>Espirito Santo</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pernambuco</option>
+                        <option>Piaui</option>
+                        <option>Rio Grande do sul</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Sergipe</option>
+                        <option>São Paulo</option>
+                    </select>
+                </p>
+                <p>
+                    <h4>Estado:</h4>
+                    <select multiple>
+                        <option>Amazonas</option>
+                        <option>Acre</option>
+                        <option>Bahia</option>
+                        <option>Espirito Santo</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pernambuco</option>
+                        <option>Piaui</option>
+                        <option>Rio Grande do sul</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Sergipe</option>
+                        <option>São Paulo</option>
+                    </select>
+                </p>
+            </section>
+            <section>
+                <p>
+                    <h2>Feedback:</h2>
+                    <p>O que você achou do serviço?</p>
+                    <textarea></textarea>
+                </p>
+                <p>
+                    A entrega do produto demora chegar?
+                    <p>
+                        <input type="radio" id="Demora" name="???"/>
+                        <label for="Demora">Demora bastante</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="Demora um pouco" name="???"/>
+                        <label for="Demora um pouco">Demora um pouco</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="Mais ou menos" name="???"/>
+                        <label for="Mais ou menos">Mais ou menos</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="Não" name="???"/>
+                        <label for="Não">Não</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="Não, é rapido" name="???"/>
+                        <label for="Não, é rapido">Não, é rapida</label>
+                    </p>
+                    Em uma escala de 1 a 5, qual é o seu nível de satisfação:
+                    <p>
+                        <input type="radio" id="1" name="??"/>
+                        <label for="1">1</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="2" name="??"/>
+                        <label for="2">2</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="3" name="??"/>
+                        <label for="3">3</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="4" name="??"/>
+                        <label for="4">4</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="5" name="??"/>
+                        <label for="5">5</label>
+                    </p>
+                    <p>
+                        Qual a sua satisfação?
+                        <select>
+                            <option>Muito satisfeito(a)</option>
+                            <option>satisfeito</option>
+                            <option>Mais ou menos</option>
+                            <option>Não estou satisfeito(a)</option>
+                            <option>Eu detestei</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="concorda"/>
+                        <label for="concorda">Você concorda em compartilha suas respostas com terceiros</label>
+                    </p>
+                </p>
+                <input type="submit" value="Log in" />  
+            </section>   
+        </form>
+    </body>
+</html>

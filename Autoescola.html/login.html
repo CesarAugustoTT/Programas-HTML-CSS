@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoescola Guanabara - login</title>
+    <link rel="icon" type="image/x-icon" href="imagens/logomarca.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #960909;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.769);
+            border-radius: 5px;
+            width: 800px;
+            height: 400px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .login-container label {
+            display: block;
+            margin-bottom: 5px;
+            margin-right: 5px;
+            padding: 10px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #960909;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #960909;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+            <label for="name">Nome de usuário</label>
+            <input type="text" placeholder="Digite seu nome de usuário" id="name" name="name" autocomplete="on" required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Digite seu email" id="email" name="email" autocomplete="off" required>
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha" id="password" name="password" required>
+            <button type="submit">Entrar</button>
+            <input type="hidden" name="accessKey" value="579df61b-beb6-4322-a0ae-7c773b534dbd">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/autoescola.html#principal">
+        </form>
+    </div>
+</body>
+</html>
